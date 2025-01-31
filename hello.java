@@ -37,5 +37,21 @@ public class hello{
         // }finally{
         //     myObj.close();
         // }
+
+
+        // Write a Java program to determine if a given number is even or odd using an if-else statement.
+
+        try{
+            System.out.println("Enter Number");
+            int num = myObj.nextInt();
+            if(num%2==0){
+                System.out.println("This number is EVEN...");
+            }else{
+                System.out.println("This number is ODD...");
+            }
+        }finally{
+            myObj.close();
+        }
+
     }
 }
