@@ -41,13 +41,27 @@ public class hello{
 
         // Write a Java program to determine if a given number is even or odd using an if-else statement.
 
+        // try{
+        //     System.out.println("Enter Number");
+        //     int num = myObj.nextInt();
+        //     if(num%2==0){
+        //         System.out.println("This number is EVEN...");
+        //     }else{
+        //         System.out.println("This number is ODD...");
+        //     }
+        // }finally{
+        //     myObj.close();
+        // }
+
+        // Write a Java program to check if a given year is a leap year using an if-else statement.
+
         try{
-            System.out.println("Enter Number");
-            int num = myObj.nextInt();
-            if(num%2==0){
-                System.out.println("This number is EVEN...");
+            System.out.println("Enter Year");
+            int year = myObj.nextInt();
+            if(year>365 && year<367){
+                System.out.println("This is Leap Year...");
             }else{
-                System.out.println("This number is ODD...");
+                System.out.println("This is Normal Year...");
             }
         }finally{
             myObj.close();
